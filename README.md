@@ -6,3 +6,9 @@ This game uses [curses](https://docs.python.org/3/howto/curses.html#) to make mo
   <img src="https://github.com/nilsmo1/tic-tac-toe-curses/blob/main/tictactoe2.png" />
 </p>
 
+## Usage
+```bash
+$ git clone https://github.com/nilsmo1/tic-tac-toe-curses.git
+$ cd tic-tac-toe-curses
+$ python3 main.py
+```
