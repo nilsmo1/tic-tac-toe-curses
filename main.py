@@ -52,9 +52,9 @@ def main(stdscr):
             if w != "No winner":
                 for i,r in enumerate(board(b).split("\n")):
                     stdscr.addstr(y+i, x, r)
-                stdscr.addstr(y+7, x-2, w)
+                stdscr.addstr(y+7, x-1, w)
                 stdscr.refresh()
-                sleep(2)
+                sleep(3)
                 quit()
             if " " not in b: 
                 stdscr.addstr(y+7, x, w)
